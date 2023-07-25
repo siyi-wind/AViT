@@ -1,2 +1,2 @@
-# MDViT: Multi-domain Vision Transformer for Small Medical Image Segmentation Datasets
+# AViT: Adapting Vision Transformers for Small Skin Lesion Segmentation Datasets
 Under construction. Will make the code available soon...
