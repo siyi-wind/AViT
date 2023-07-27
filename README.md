@@ -86,7 +86,7 @@ python -u multi_train_adapt.py --exp_name test --config_yml Configs/multi_train_
 [3]: https://uwaterloo.ca/vision-image-processing-lab/research-demos/skin-cancer-detection
 [4]: https://www.fc.up.pt/addi/ph2%20database.html
 [5]: https://github.com/siyi-wind/AViT/blob/main/Datasets/create_meta.ipynb
-[6]: https://arxiv.org/abs/2307.02100
+[6]: https://arxiv.org/abs/2307.13897
 [7]: https://github.com/facebookresearch/deit
 [8]: https://github.com/google-research/vision_transformer
 [9]: https://github.com/microsoft/Swin-Transformer
