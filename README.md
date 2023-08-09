@@ -6,6 +6,8 @@
 
 This is a PyTorch implementation for [AViT: Adapting Vision Transformers for Small Skin Lesion Segmentation Datasets, MICCAI ISIC Workshop 2023][6].
 
+We also include plenty of comparing models in this repository: SwinUnet, UNETR, UTNet, MedFormer, SwinUNETR, H2Former, FAT-Net, TransFuse, AdaptFormer, and VPT (Please go to the paper to find the detailed information of these models).
+
 If you use this code in your research, please consider citing:
 
 ```text
