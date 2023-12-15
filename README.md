@@ -87,7 +87,7 @@ We release the weights for AViT on ViT-Base.
 
 | Dataset | ISIC | DMF | SCD | PH2 |
 |----------|----------|----------|----------|----------|
-|   Weights  |   [14]  |   [15]  |  [16] | [17] |
+|   Weights  |   [Google Drive][14]  |    [Google Drive][15]  |   [Google Drive][16] |  [Google Drive][17] |
 
 
 [1]: https://challenge.isic-archive.com/data/#2018
