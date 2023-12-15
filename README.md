@@ -82,6 +82,13 @@ python -u multi_train_adapt.py --exp_name test --config_yml Configs/multi_train_
 python -u multi_train_adapt.py --exp_name test --config_yml Configs/multi_train_local.yml --model VPT --batch_size 16 --adapt_method False --num_domains 1 --dataset isic2018 --k_fold 0
 ```
 
+## Model Weights
+We release the weights for AViT on ViT-Base.
+
+| Dataset | ISIC | DMF | SCD | PH2 |
+|----------|----------|----------|----------| 
+|   Weights  |   [14]  |   [15]  |  [16] | [17] |
+
 
 [1]: https://challenge.isic-archive.com/data/#2018
 [2]: https://licensing.edinburgh-innovations.ed.ac.uk/product/dermofit-image-library
@@ -96,4 +103,7 @@ python -u multi_train_adapt.py --exp_name test --config_yml Configs/multi_train_
 [11]: https://timm.fast.ai/
 [12]: https://pytorch.org/vision/stable/models.html
 [13]: https://github.com/jcwang123/BA-Transformer
-
+[14]: https://drive.google.com/drive/folders/1ct8_GztVLC5BCWpzGxp9MZKP5ZQk9Cve?usp=sharing
+[15]: https://drive.google.com/drive/folders/1Gvs8drboYJdyvn_TerOD5UettA_E0Izi?usp=sharing
+[16]: https://drive.google.com/drive/folders/16QL8vVoXlG1hYj29SuZD9Kze41xPvpfu?usp=sharing
+[17]: https://drive.google.com/drive/folders/1InVKXuJvWSIdL7H1V6s3cMRMxRLO-36h?usp=sharing
