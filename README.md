@@ -86,7 +86,7 @@ python -u multi_train_adapt.py --exp_name test --config_yml Configs/multi_train_
 We release the weights for AViT on ViT-Base.
 
 | Dataset | ISIC | DMF | SCD | PH2 |
-|----------|----------|----------|----------| 
+|----------|----------|----------|----------|----------|
 |   Weights  |   [14]  |   [15]  |  [16] | [17] |
 
 
