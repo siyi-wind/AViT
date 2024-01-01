@@ -13,7 +13,6 @@ import numpy as np
 from torchvision import transforms
 import albumentations as A
 import pandas as pd
-import pandas as pd
 
 dataset_indices = {
     'isic2018': 0,
@@ -39,6 +38,7 @@ def Dataset_wrap_csv(k_fold='No', use_old_split=True, img_size=384, dataset_name
     '''
     data_dic = {}
     data_path = '{}/{}/'.format(data_folder, dataset_name)
+    print(data_path)
     # do k fold loading
     if k_fold != 'No':
         if use_old_split:

@@ -211,24 +211,24 @@ def main(config):
     # print(f"total flops : {flops/1e9} G")
 
     # test model
-    x = torch.randn(5,3,224,224)
-    y = model(x)
-    print(y.shape)
+    # x = torch.randn(5,3,224,224)
+    # y = model(x)
+    # print(y.shape)
 
-    # model = model.cuda()
+    model = model.cuda()
 
-    # ## If multiple GPUs
-    # if len(device_ids) > 1: 
-    #     model = torch.nn.DataParallel(model).cuda()
+    ## If multiple GPUs
+    if len(device_ids) > 1: 
+        model = torch.nn.DataParallel(model).cuda()
     
-    # criterion = [nn.BCELoss(), dice_loss]
+    criterion = [nn.BCELoss(), dice_loss]
 
-    # # only test
-    # if config.test.only_test == True:
-    #     test(config, model, config.test.test_model_dir, test_loaders, criterion)
-    # else:
-    #     train_val(config, model, train_loaders, val_loaders, criterion)
-    #     test(config, model, best_model_dir, test_loaders, criterion)
+    # only test
+    if config.test.only_test == True:
+        test(config, model, config.test.test_model_dir, test_loaders, criterion)
+    else:
+        train_val(config, model, train_loaders, val_loaders, criterion)
+        test(config, model, best_model_dir, test_loaders, criterion)
 
 
 

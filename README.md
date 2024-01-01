@@ -83,7 +83,7 @@ python -u multi_train_adapt.py --exp_name test --config_yml Configs/multi_train_
 ```
 
 ## Model Weights
-We release the weights for AViT on ViT-Base.
+We release the weights for AViT on ViT-Base. [play.ipynb][18] showed an example that tests AViT (ViT-B based) on the 4th folder of the ISIC dataset.
 
 | Dataset | ISIC | DMF | SCD | PH2 |
 |----------|----------|----------|----------|----------|
@@ -107,3 +107,4 @@ We release the weights for AViT on ViT-Base.
 [15]: https://drive.google.com/drive/folders/1Gvs8drboYJdyvn_TerOD5UettA_E0Izi?usp=sharing
 [16]: https://drive.google.com/drive/folders/16QL8vVoXlG1hYj29SuZD9Kze41xPvpfu?usp=sharing
 [17]: https://drive.google.com/drive/folders/1InVKXuJvWSIdL7H1V6s3cMRMxRLO-36h?usp=sharing
+[18]: https://github.com/siyi-wind/AViT/blob/main/play.ipynb

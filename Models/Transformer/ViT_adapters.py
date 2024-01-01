@@ -245,7 +245,7 @@ class ViT_ImageNet(nn.Module):
                 adapt_method=adapt_method, num_domains=num_domains)
             for i in range(self.depth)])
         # self.ln_post = nn.ModuleList([norm_layer(embed_dim) for _ in range(num_domains)]) if self.num_domains>1 else norm_layer(embed_dim)
-        # self.norm = nn.LayerNorm(embed_dim)
+        self.norm = nn.LayerNorm(embed_dim)
 
         trunc_normal_(self.pos_embed, std=.02)
         trunc_normal_(self.cls_token, std=.02)
