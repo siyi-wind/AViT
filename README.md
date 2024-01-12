@@ -95,7 +95,7 @@ We release the weights for AViT on ViT-Base. [play.ipynb][18] showed an example 
 [3]: https://uwaterloo.ca/vision-image-processing-lab/research-demos/skin-cancer-detection
 [4]: https://www.fc.up.pt/addi/ph2%20database.html
 [5]: https://github.com/siyi-wind/AViT/blob/main/Datasets/create_meta.ipynb
-[6]: https://arxiv.org/abs/2307.13897
+[6]: https://link.springer.com/chapter/10.1007/978-3-031-47401-9_3
 [7]: https://github.com/facebookresearch/deit
 [8]: https://github.com/google-research/vision_transformer
 [9]: https://github.com/microsoft/Swin-Transformer
